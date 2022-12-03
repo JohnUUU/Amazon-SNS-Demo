@@ -10,8 +10,8 @@ function setCredentials() {
     AWS.config.update({
         region: 'us-east-1', 
         apiVersion: 'latest',
-        accessKeyId: 'AKIAU3ZOZOL53F2NUK6J',
-        secretAccessKey: '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',
+        accessKeyId: 'Access Key',
+        secretAccessKey: 'Secret Access Key',
     });
     
     
