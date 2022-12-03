@@ -10,10 +10,9 @@ function setCredentials() {
     AWS.config.update({
         region: 'us-east-1', 
         apiVersion: 'latest',
-        accessKeyId: "ENTER ACCESS KEY",
-        secretAccessKey: "ENTER SECRET ACCESS KEY"
+        accessKeyId: 'AKIAU3ZOZOL53F2NUK6J',
+        secretAccessKey: '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',
     });
-    console.log(AWS.config)
     
     
     // AWS.config.credentials.get(function(){

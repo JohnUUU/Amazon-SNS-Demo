@@ -1,10 +1,11 @@
 import React, {useState } from "react"
 import {run} from "../util/awsAPI"
 import {setCredentials} from "../util/set_credentials"
-
+import * as AWS from "aws-sdk";
 
 function Homepage() {
     setCredentials();
+    console.log(AWS.config)
     run();
     const [eSub, setESub] = useState("Subscribe");
     const [pSub, setPSub] = useState("Subscribe");
