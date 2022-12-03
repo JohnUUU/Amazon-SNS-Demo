@@ -1,0 +1,29 @@
+{
+  "name": "amazon-sns-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnUUU/Amazon-SNS-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnUUU/Amazon-SNS-Demo/issues"
+  },
+  "homepage": "https://github.com/JohnUUU/Amazon-SNS-Demo#readme",
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.209.0",
+    "aws-sdk": "^2.1258.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "next": "^13.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
